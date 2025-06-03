@@ -1,5 +1,6 @@
 package com.base;
 
+import Utitlities.JavaScriptUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,6 +11,7 @@ public class BasePage {
 
     public static void setDriver(WebDriver driver){
         BasePage.driver= driver;
+        JavaScriptUtility.setDriver(driver);
     }
 
     protected WebElement find(By locator) {
