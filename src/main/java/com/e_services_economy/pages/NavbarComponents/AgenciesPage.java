@@ -18,7 +18,7 @@ public class AgenciesPage extends HomePage {
     private By agenciesHeaderText = By.xpath("//div[@id='root']//h2[text()='Qurumlar']");
     private By searchInput = By.xpath("//div[@id='root']//input[@name='text']");
     private By resultItems = By.xpath("//div[@id='root']//span[@class='_title_5ekyk_45']");
-    private By aboutAgenciesLink = By.cssSelector("(//div[@id='root']//a[contains(text(),'Qurum məlumatları')])[1]");
+    private By aboutAgenciesLink = By.xpath("(//div[@id='root']//div[@class='_corps_5ekyk_35']//div[@class='_corp_5ekyk_35']//a[text()='Qurum məlumatları'])[1]");
     private By aboutAgenciesTitle = By.xpath("//div[@id='root']//div[@class='_top_5ekyk_42']//span[1]");
 
 

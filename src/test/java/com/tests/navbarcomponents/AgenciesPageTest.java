@@ -51,7 +51,7 @@ public class AgenciesPageTest extends BaseTest {
 
     // Test Agencies Page clicking About Agency and load right page and items
     @Test
-    public void testAboudAgenciesLoadRight(){
+    public void testAboutAgenciesPageLoadRight(){
         var aboutAgenciesPage = homePage.goToAgenciesPage().goToAboutAgenciesPage();
         var agenciesPage = homePage.goToAgenciesPage();
             String actualResult = aboutAgenciesPage.getAgencyTitleText();
